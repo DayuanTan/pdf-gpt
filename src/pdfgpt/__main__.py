@@ -1,13 +1,14 @@
 # __main__.py
 # Author: DaYuan Tan, dr.dayuantan at gmail dot com
 # Last Modified: 2024-09-25
+# This file is used to make the package executable as a script. When you run the package using python -m pdfgpt, the code in __main__.py will be executed.
 
 """Extract PDF contents with the magic of GPT.
 
 Usage:
 ------
 
-    $ realpython [options]
+    $ pdfgpt [options]
 
 Available options are:
 
@@ -17,24 +18,26 @@ Available options are:
 Contact:
 --------
 
-- https://github.com/DayuanTan/pdf-gpt
+- https://github.com/DayuanTan/pdfgptlib
 - Author: DaYuan Tan, dr.dayuantan at gmail dot com
 
 More information is available at:
 
-- https://github.com/DayuanTan/pdf-gpt
+- https://github.com/DayuanTan/pdfgptlib
 
 
 Version:
 --------
 
-- pdf-gpt v0.1.0
+- pdfgpt v0.1.0
 """
 import sys
 
 
 def main() -> None:
-    """Extract content from PDF files."""
+    """Extract contents from PDF files."""
+    print("Hello from pdfgpt!")
+    
     opts = [o for o in sys.argv[1:] if o.startswith("-")]
     
     # Show help message

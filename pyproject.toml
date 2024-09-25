@@ -30,8 +30,8 @@ requires-python = ">=3"
 dev = ["pip-tools", "pytest"]
 
 [project.urls]
-Homepage = "https://github.com/DayuanTan/pdf-gpt"
-Repository = "https://github.com/DayuanTan/pdf-gpt"
+Homepage = "https://github.com/DayuanTan/pdfgptlib"
+Repository = "https://github.com/DayuanTan/pdfgptlib"
 
 [project.scripts]
-pdf-gpt = "pdf-gpt.__main__:main"
+pdfgptlib = "pdfgpt.__main__:main"

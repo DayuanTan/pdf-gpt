@@ -1,0 +1,7 @@
+openai
+pydantic
+pymupdf
+
+[dev]
+pip-tools
+pytest
