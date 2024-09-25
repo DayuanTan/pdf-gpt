@@ -219,6 +219,9 @@ License-File: LICENSE
 Requires-Dist: openai
 Requires-Dist: pydantic
 Requires-Dist: pymupdf
+Provides-Extra: build
+Requires-Dist: build; extra == "build"
+Requires-Dist: twine; extra == "build"
 Provides-Extra: dev
 Requires-Dist: pip-tools; extra == "dev"
 Requires-Dist: pytest; extra == "dev"

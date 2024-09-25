@@ -27,6 +27,7 @@ dependencies = [
 requires-python = ">=3"
 
 [project.optional-dependencies]
+build = ["build", "twine"]
 dev = ["pip-tools", "pytest"]
 
 [project.urls]
