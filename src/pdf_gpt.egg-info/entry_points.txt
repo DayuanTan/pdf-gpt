@@ -1,2 +1,0 @@
-[console_scripts]
-pdf-gpt = pdf_gpt.__main__:main

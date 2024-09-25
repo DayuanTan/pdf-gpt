@@ -1,5 +1,5 @@
 Metadata-Version: 2.1
-Name: pdf-gpt
+Name: pdfgptlib
 Version: 0.1.0
 Summary: Extract PDF contents with the magic of GPT.
 Author-email: DaYuan Tan <dr.dayuantan@gmail.com>
@@ -205,8 +205,8 @@ License:                                  Apache License
            See the License for the specific language governing permissions and
            limitations under the License.
         
-Project-URL: Homepage, https://github.com/DayuanTan/pdf-gpt
-Project-URL: Repository, https://github.com/DayuanTan/pdf-gpt
+Project-URL: Homepage, https://github.com/DayuanTan/pdfgptlib
+Project-URL: Repository, https://github.com/DayuanTan/pdfgptlib
 Keywords: pdf,gpt,llm
 Classifier: License :: OSI Approved :: Apache Software License
 Classifier: Programming Language :: Python
